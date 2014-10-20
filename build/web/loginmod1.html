@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@import url(newstyle.css);
+h4{font-family: Calligrapher;
+color:#753A00;
+size:15;
+font-face: Calligrapher;
+text-decoration:none;}
+a:link {text-decoration: none; color:#753A00;}
+a:visited {text-decoration: none; color:#753A00;}
+a:hover {text-decoration: underline;}
+</style>
+
+    <script type="text/javascript">
+        function check()
+        {
+            name = document.getElementById("username").value;
+            pass = document.getElementById("password").value;
+            if( name == "" || pass == "")
+                alert("Please Enter Valid Username or password");
+	else if(pass.length<6)
+	{
+		alert("Enter password of minimum 6 characters");
+		document.getElemntById("password").focus();
+	}
+            else {
+                    document.login.submit();
+                 }
+        }
+    </script>
+</head>
+<body>
+<table><tr><td><br><br><br><br><br><br><br><br><br></tr></table>
+<center> <h4>Thanks For Registering with us !!!</h4>
+<table border="1">
+    <form name="login" method="post" action ="login">
+<tr>
+
+<td width="100"><label><h4>User Name:</h4></td>
+
+<td><input type="text" id="username" name="username" placeholder="Enter your name here" required title="You can enter characters as well as numbers.">
+</label>
+</td>
+
+</tr>
+
+<tr>
+<td><label><h4>Password:</h4></td><td><input type="password" id="password" name="pass" placeholder="Enter your password here" required title="Your password should be atleast 6 characters long.">
+</label>
+</td>
+</tr>
+
+
+
+<tr><td align="center" colspan="2"><label><input type="button" id="submit" name="submit" value="LOGIN" onClick ="check();"></label></td></tr>
+
+<tr>
+<td colspan="2" align="center"><a href="reg.jsp"><center><label><h4>New User?Sign up:</h4></center></label></a>
+</td>
+</tr>
+
+<tr><td colspan="2" align="center"><h4><a href="newhome.html">Go back to Home</a></h4></tr>
+
+
+    </form>
+		</table>
+
+</center>
+
+</body>
+</html>

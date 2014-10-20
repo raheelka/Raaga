@@ -1,0 +1,249 @@
+<%-- 
+    Document   : index
+    Created on : 31 Oct, 2010, 2:15:01 PM
+    Author     : Karan
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+@import url(styles.css);
+
+</style>
+<script type="text/javascript" src="dropdowntabs.js" ></script>
+        <script type="text/javascript" src="marquee.js">
+</script>
+    </head>
+<body>
+<table><tr><td><br><br><br><br><br><br><br><br><br></tr></table>
+
+<table border="2">
+
+<tr>
+	<td>
+		<table border="2" width="150">
+			<tr><td>
+			<label>
+                            <form name="form1" action="search" method="post">
+			<input type="textbox" id="search" name="search" placeholder="search">
+
+
+                                             </label>
+			<td align="center"><input type="submit" id="submit" name="submit" value="SEARCH">
+
+                                </form>
+                       
+
+
+			<tr><td colspan="2" align="center"><h4><a href="link3.html">New Releases</a></h4></tr>
+			<tr><td colspan="2" align="center"><h4><a href="link.html">Latest Songs</a></h4></tr>
+
+			<tr><td colspan="2" align="center"><h4><a href="link2.html">Retro Hits</a></h4></tr>
+			<tr><td colspan="2" align="center"><h4><a href="link1.html">Old Songs</a></h4></tr>
+                        <tr><td colspan="2" align="center"><h4><a href="Black&WhiteCollection.html">Black & White</a></h4></tr>
+		</table>
+	</td>
+
+	<td valign="top">
+
+		<table border="2" width="670">
+		<tr>
+			<td>
+                            <div id="colortab" class="ddcolortabs">
+<ul>
+<li><a href="index.jsp" title="Home"><span>Home</span></a></li>
+<li><a href="Artist 1.html" title="Artist" rel="artists"><span>Artist</span></a></li>
+<li><a href="Album 1.html" title="Albums" rel="albums"><span>Albums</span></a></li>
+<li><a href="checkwhlog" title="Buy" ><span>Buy</span></a></li>	
+<li><a href="login.html" title="Login"><span>Login</span></a></li>	
+<li><a href="aboutus.html" title="About Us" rel="contact"><span>About Us</span></a></li>	
+
+</ul>
+</div>
+                                
+            <div id="artists" class="dropmenudiv_a">
+
+		
+		<a href="atif.jsp">ATIF ASLAM</a>
+		<a href="jal.jsp">JAL</a>
+                <a href="bappi.jsp">Bappi Lahiri</a>
+                <a href="JavedAli.jsp">Javed Ali</a>
+                <a href="mohit.jsp">Mohit Chauhan</a>
+                <a href="vishal.jsp">Vishal</a>
+                <a href="roopkumar.jsp">Roopkumar</a>
+                <a href="shankar.jsp">Shankar</a>
+                <a href="karan.jsp">Karan</a>
+                <a href="shreya.jsp">Shreya Ghoshal</a>
+                <a href="allen.jsp">Allen</a>
+                <a href="akon.jsp">Akon</a>
+                <a href="backstreet.jsp">Backstreet Boys</a>
+                <a href="mj.jsp">MJ</a>
+                <a href="hoobastank.jsp">Hoobastank</a>
+                <a href="linkinpark.jsp">Linkin park</a>
+                <a href="metallica.jsp">Metallica</a>
+                <a href="usher.jsp">Usher</a>
+                <a href="tpain.jsp">Tpain</a>
+
+            </div>
+
+            <div id="contact" class="dropmenudiv_a">
+                <a href="abtraaga.html">ABOUT RAAGA</a>
+		<a href="develpors.html">DEVELOPERS</a>
+            </div>
+                            <div id="albums" class="dropmenudiv_a">
+    <a href="">Albums 1</a>
+    <a href="">Albums 2</a>
+    <a href="">Albums 3</a>
+    <a href="">Albums 4</a>
+    <a href="">Albums 5</a>
+    <a href="">Albums 6</a>
+    <a href="">Albums 7</a>
+</div>
+	
+
+
+	<script type="text/javascript">
+//SYNTAX: tabdropdown.init("menu_id", [integer OR "auto"])
+tabdropdown.init("colortab", -1)
+</script>
+	
+
+		
+		
+		
+
+
+				</td>
+			</tr>
+<tr><td><br><br><br><br></td></tr>
+
+
+
+		<tr>
+			<td valign="top">
+			<script language="JavaScript1.2">
+
+/*
+Cross browser Marquee script- © Dynamic Drive (www.dynamicdrive.com)
+For full source code, 100's more DHTML scripts, and Terms Of Use, visit http://www.dynamicdrive.com
+Modified by jscheuer1 for continuous content. Credit MUST stay intact
+*/
+
+//Specify the marquee's width (in pixels)
+var marqueewidth="750px"
+//Specify the marquee's height
+var marqueeheight="150px"
+//Specify the marquee's marquee speed (larger is faster 1-10)
+var marqueespeed=3
+//Specify initial pause before scrolling in milliseconds
+var initPause=0
+//Specify start with Full(1)or Empty(0) Marquee
+var full=0
+//configure background color:
+var marqueebgcolor="#DEFDD9"
+//Pause marquee onMousever (0=no. 1=yes)?
+var pauseit=1
+
+//Specify the marquee's content (don't delete <nobr> tag)
+//Keep all content on ONE line, and backslash any single quotations (ie: that\'s great):
+
+var marqueecontent='<nobr><a href="page26.html"><img src="img/26.jpg" width="150" height="150"></a><a href="page27.html"><img src="img/27.jpg" width="150" height="150"></a><a href="page28.html"><img src="img/28.jpg" width="150" height="150"></a><a href="page29.html"><img src="img/29.jpg" width="150" height="150"></a><a href="page30.html"><img src="img/30.jpg" width="150" height="150"></a></nobr>'
+
+
+////NO NEED TO EDIT BELOW THIS LINE////////////
+var copyspeed=marqueespeed
+var pausespeed=(pauseit==0)? copyspeed: 0
+var iedom=document.all||document.getElementById
+if (iedom)
+document.write('<span id="temp" style="visibility:hidden;position:absolute;top:-100px;left:-9000px">'+marqueecontent+'</span>')
+var actualwidth=''
+var cross_marquee, cross_marquee2, ns_marquee
+function populate(){
+if (iedom){
+var initFill=(full==1)? '8px' : parseInt(marqueewidth)+8+"px"
+actualwidth=document.all? temp.offsetWidth : document.getElementById("temp").offsetWidth
+cross_marquee=document.getElementById? document.getElementById("iemarquee") : document.all.iemarquee
+cross_marquee.style.left=initFill
+cross_marquee2=document.getElementById? document.getElementById("iemarquee2") : document.all.iemarquee2
+cross_marquee2.innerHTML=cross_marquee.innerHTML=marqueecontent
+cross_marquee2.style.left=(parseInt(cross_marquee.style.left)+actualwidth+8)+"px" //indicates following #1
+}
+else if (document.layers){
+ns_marquee=document.ns_marquee.document.ns_marquee2
+ns_marquee.left=parseInt(marqueewidth)+8
+ns_marquee.document.write(marqueecontent)
+ns_marquee.document.close()
+actualwidth=ns_marquee.document.width
+}
+setTimeout('lefttime=setInterval("scrollmarquee()",30)',initPause)
+}
+window.onload=populate
+
+function scrollmarquee(){
+if (iedom){
+if (parseInt(cross_marquee.style.left)<(actualwidth*(-1)+8))
+cross_marquee.style.left=(parseInt(cross_marquee2.style.left)+actualwidth+8)+"px"
+if (parseInt(cross_marquee2.style.left)<(actualwidth*(-1)+8))
+cross_marquee2.style.left=(parseInt(cross_marquee.style.left)+actualwidth+8)+"px"
+cross_marquee2.style.left=parseInt(cross_marquee2.style.left)-copyspeed+"px"
+cross_marquee.style.left=parseInt(cross_marquee.style.left)-copyspeed+"px"
+}
+else if (document.layers){
+if (ns_marquee.left>(actualwidth*(-1)+8))
+ns_marquee.left-=copyspeed
+else
+ns_marquee.left=parseInt(marqueewidth)+8
+}
+}
+
+if (iedom||document.layers){
+with (document){
+document.write('<table border="0" cellspacing="0" cellpadding="0"><td>')
+if (iedom){
+write('<div style="position:relative;width:'+marqueewidth+';height:'+marqueeheight+';overflow:hidden">')
+write('<div style="position:absolute;width:'+marqueewidth+';height:'+marqueeheight+';background-color:"" onMouseover="copyspeed=pausespeed" onMouseout="copyspeed=marqueespeed">')
+write('<div id="iemarquee" style="position:absolute;left:0px;top:3px;display:inline;"></div>')
+write('<div id="iemarquee2" style="position:absolute;left:0px;top:3px;display:inline;"></div>')
+write('</div></div>')
+}
+else if (document.layers){
+write('<ilayer width='+marqueewidth+' height='+marqueeheight+' name="ns_marquee" bgColor= >')
+write('<layer name="ns_marquee2" left=0 top=3 onMouseover="copyspeed=pausespeed" onMouseout="copyspeed=marqueespeed"></layer>')
+write('</ilayer>')
+}
+document.write('</td></table>')
+}
+}
+</script>
+			</td>
+			</tr>
+
+		</table>
+	</td>
+        <td>
+             <table>
+                 <tr><th><h4>Advertisements</h4></th></tr>
+                 <tr><td><a href="http://www.mp3hungama.com" target="_blank"><img src="img/m1.jpg" width="260" height="200" ></a>
+
+            </td></tr>
+    <br><tr>
+<td><a href="http://www.songs.pk"><img src="img/m2.jpg" width="265" height="200"></a>
+
+            </td>    </tr>
+</table>
+        </td>
+
+
+</tr>
+
+
+</table>
+
+
+</body>
+</html>

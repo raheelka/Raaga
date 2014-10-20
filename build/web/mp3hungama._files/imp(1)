@@ -1,0 +1,6 @@
+document.write('<a target=\"_blank\" href=\"http://ad.bharatstudent.com/clk?2,13%3Bd1ec75db8cfcfe2a%3B12c11234465,0%3B%3B%3B2168980860,2QM3AHqCEQAcAGwAAAAAADDaGwAAAAAAAgAEAAYAAAAAAP8AAAAEECAeHQAAAAAAiUwHAAAAAABW4yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADRdgoAAAAAAAIAAwAAAAAABUQjESwBAAAAAAAAADg1MTI1NzNjLWU3MmYtMTFkZi05MDA2LTAwMWIyNDc4NDhjNgCbAAAAAAA=,,http%3A%2F%2Fudmserve.net%2Fudm%2Fimg.fetch%3Fsid%3D1499%3Btid%3D1%3Bev%3D1%3Bdt%3D1%3B,\"><img border=\"0\" alt=\"\" height=\"90\" width=\"728\" src=\"http://content.yieldmanager.edgesuite.net/atoms/cd/45/e7/7a/cd45e77a1abe67864c49f5deed6957e6.gif\"></img></a>');
+var rm_data = new Object();
+rm_data.creative_id = 7077916;
+rm_data.offer_type = 24;
+rm_data.entity_id = 360360;
+if (window.rm_crex_data) {rm_crex_data.push(7077916);}

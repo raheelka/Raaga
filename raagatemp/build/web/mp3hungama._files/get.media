@@ -1,0 +1,2 @@
+{var dz=document;
+dz.writeln("<IFRAME FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=728 HEIGHT=90 SRC=\"http://ads.komli.com/st?ad_type=iframe&ad_size=728x90&section=1356027&x=http://media.fastclick.net/w/click.here?cid=232025;mid=456478;m=1;sid=53856;c=0;tp=5;forced_click=\"></IFRAME>");}

@@ -1,0 +1,76 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="dropdowntabs.js" >
+        </script>
+        <script type="text/javascript" src="ddtabmenu.js">
+        </script>
+        
+        <link rel="stylesheet" type="text/css" href="ddcolortabs_1.css" />
+        <link rel="stylesheet" type="text/css" href="solidblocksmenu.css" />
+
+
+    </head>
+    <body>
+        
+        <frameset rows="30%,70%">
+            <frame src="index.jsp">
+            <frameset cols="30%,70%">
+                <frame src="buy.html">
+                    <frame src="login.html">
+            </frameset>
+        </frameset>
+            
+        <div id="colortab" class="ddcolortabs">
+<ul>
+<li><a href="" title="Home"><span>Home</span></a></li>
+<li><a href="" title="Artist" rel="artists"><span>Artist</span></a></li>
+<li><a href="" title="Albums" rel="albums"><span>Albums</span></a></li>
+<li><a href="" title="Buy" ><span>Buy</span></a></li>	
+<li><a href="" title="Login"><span>Login</span></a></li>	
+<li><a href="" title="About Us"><span>About Us</span></a></li>	
+
+</ul>
+</div>
+
+<div id="artists" class="dropmenudiv_a">
+    <a href="">Artist 1</a>
+    <a href="">Artist 2</a>
+    <a href="">Artist 3</a>
+    <a href="">Artist 4</a>
+    <a href="">Artist 5</a>
+    <a href="">Artist 6</a>
+    <a href="">Artist 7</a>
+</div>
+ 
+<div id="albums" class="dropmenudiv_a">
+    <a href="">Albums 1</a>
+    <a href="">Albums 2</a>
+    <a href="">Albums 3</a>
+    <a href="">Albums 4</a>
+    <a href="">Albums 5</a>
+    <a href="">Albums 6</a>
+    <a href="">Albums 7</a>
+</div>
+
+
+<div id="dropmenu2_a" class="dropmenudiv_a" style="width: 150px;">
+    <a href="http://www.cssdrive.com">CSS Drive</a>
+    <a href="http://www.javascriptkit.com">JavaScript Kit</a>
+    <a href="http://www.codingforums.com">Coding Forums</a>
+    <a href="http://www.javascriptkit.com/jsref/">JavaScript Reference</a>
+</div>
+
+<script type="text/javascript">
+//SYNTAX: tabdropdown.init("menu_id", [integer OR "auto"])
+tabdropdown.init("colortab", -1)
+</script>
+        
+    </body>
+</html>
